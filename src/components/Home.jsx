@@ -103,28 +103,34 @@ const Home = () => {
             </div>
           </div>
           <div className="flex justify-between pt-28">
-  <div className="justify-start">
-  <div className="flex flex-col pl-40 ">
-  <div className="mb-4 p-2 rounded bg-gray-200 w-52 h-10 text-center">
-    <p className="text-white text-xl">Engineering</p>
-  </div>
-  <div className="mb-4 p-2 rounded bg-gray-200 h-10 text-center">
-    <p className="opacity-80 text-white text-xl">Software</p>
-  </div>
-  <div className="p-2 rounded-md bg-gray-200  h-10 text-center">
-    <p className=" p-0 text-center justify-center opacity-80 text-white text-xl">Edu-Tech</p>
-  </div>
-</div>
-  </div>  
-  <div>
-    
-    <h1>Engineering Solutions</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro architecto doloribus sint ab cum repellat eius voluptatum exercitationem! Laboriosam voluptates optio ad rem illum eos ea aliquid ex sequi?</p>
-    <div>
-      <button>Know More</button>
-    </div>
-  </div>
-</div>
+            <div className="justify-start">
+              <div className="flex flex-col pl-40 ">
+                <div className="mb-4 p-2 rounded bg-gray-200 w-52 h-10 text-center">
+                  <p className="text-white text-xl">Engineering</p>
+                </div>
+                <div className="mb-4 p-2 rounded bg-gray-200 h-10 text-center">
+                  <p className="opacity-80 text-white text-xl">Software</p>
+                </div>
+                <div className="p-2 rounded-md bg-gray-200  h-10 text-center">
+                  <p className=" p-0 text-center justify-center opacity-80 text-white text-xl">
+                    Edu-Tech
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h1>Engineering Solutions</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                porro architecto doloribus sint ab cum repellat eius voluptatum
+                exercitationem! Laboriosam voluptates optio ad rem illum eos ea
+                aliquid ex sequi?
+              </p>
+              <div>
+                <button>Know More</button>
+              </div>
+            </div>
+          </div>
         </section>
         <section className="h-screen max-w-full bg-yellow-400 cursor-pointer">
           contact
