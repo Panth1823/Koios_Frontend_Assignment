@@ -28,12 +28,12 @@ const Home = () => {
           </div>
           <div>
             <div className=" ">
-              <h1 className="flex justify-center text-white text-2xl">
+              <h1 className="flex justify-center text-white text-2xl font-xl-header-semibold">
                 Endless Solutions, One Destination
               </h1>
               <div className="flex justify-center mt-4">
                 <button className="bg-gray-100 border-2 border-yellow-400 text-white text-sm rounded-3xl px-5 mt-3 py-2 cursor-pointer h-14 w-34 hover:shadow-lg transition duration-300  ">
-                  <div className="group inline-flex items-center">
+                  <div className="group inline-flex items-center font-xl-header-semibold">
                     Get Started{" "}
                     <FaAngleDown className="transition-transform group-hover:rotate-180 duration-300 p-1 " />
                   </div>
@@ -65,7 +65,7 @@ const Home = () => {
                 Why Us
               </h1>
               <div>
-                <p className="flex justify-center items-center mx-auto text-gray-300 text-xl">
+                <p className="flex justify-center items-center mx-auto text-gray-300 text-xl  font-xl-header-semibold">
                   Providing the best services as a one-stop destination for the
                   design and development of all your solutions.
                 </p>
@@ -75,10 +75,10 @@ const Home = () => {
                   <div className="p-2  max-w-xs" key={i}>
                     <div className="flex flex-col items-start rounded-lg h-60 w-52 p-6 bg-gray-200">
                       <img src={Card} alt="card" className="" />
-                      <h1 className="text-white dark:text-white text-lg font-medium p-2">
+                      <h1 className="text-white dark:text-white text-lg font-medium p-2  font-xl-header-semibold">
                         Lorem ipsum dolor sit amet
                       </h1>
-                      <p className="text-white dark:text-white p-2 mt-0 opacity-80 text-sm">
+                      <p className="text-white dark:text-white p-2 mt-0 opacity-80 text-sm font-xl-header-semibold">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Quidem veritatis repudiandae perspiciatis.
                       </p>
@@ -96,38 +96,44 @@ const Home = () => {
                 Our Services
               </h1>
               <div>
-                <p className="flex justify-center items-center mx-auto text-gray-300 text-xl">
+                <p className="flex justify-center items-center mx-auto text-gray-300 text-xl  font-xl-header-semibold">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex justify-between pt-28">
+          <div className="flex justify-between items-center pt-20 w-1/2 mx-auto">
             <div className="justify-start">
-              <div className="flex flex-col pl-40 ">
-                <div className="mb-4 p-2 rounded bg-gray-200 w-52 h-10 text-center">
-                  <p className="text-white text-xl">Engineering</p>
+              <div className="flex flex-col font-xl-header-semibold">
+                <div className="flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 w-64 h-14 ">
+                  <p className="text-white text-xl ">Engineering</p>
                 </div>
-                <div className="mb-4 p-2 rounded bg-gray-200 h-10 text-center">
-                  <p className="opacity-80 text-white text-xl">Software</p>
+                <div className="flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 h-14">
+                  <p className="opacity-70 text-white text-xl">Software</p>
                 </div>
-                <div className="p-2 rounded-md bg-gray-200  h-10 text-center">
-                  <p className=" p-0 text-center justify-center opacity-80 text-white text-xl">
-                    Edu-Tech
-                  </p>
+                <div className="flex items-center justify-center p-2 rounded-lg bg-gray-200 h-14">
+                  <p className="p-0 opacity-70 text-white text-xl">Edu-Tech</p>
                 </div>
               </div>
             </div>
-            <div>
+
+            <div className="flex flex-col items-start pl-5 text-white font-xl-header-semibold">
               <h1>Engineering Solutions</h1>
-              <p>
+              <p className="font-xl-header-semibold whitespace-normal overflow-auto">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
                 porro architecto doloribus sint ab cum repellat eius voluptatum
                 exercitationem! Laboriosam voluptates optio ad rem illum eos ea
-                aliquid ex sequi?
+                aliquid ex sequi. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. At temporibus eveniet nihil? Quis culpa
+                adipisci quisquam non doloremque aliquid hic explicabo numquam
+                iure alias ab expedita, totam perspiciatis illum? Nobis ipsum
+                non eligendi provident voluptates quo, veniam quia quaerat
+                aliquid.
               </p>
               <div>
-                <button>Know More</button>
+                <button className="rounded-2xl h-10 w-28 cursor-pointer text-yellow-400 border-yellow-200 bg-black hover:scale-105 duration-300">
+                  Know More
+                </button>
               </div>
             </div>
           </div>
