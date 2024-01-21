@@ -66,7 +66,7 @@ const Navbar = () => {
                     <div className="relative leading-[1.5rem] font-semibold cursor-pointer bg-yellow-400 p-2 rounded-3xl text-black hover:ring-2 hover:ring-yellow-400">
                       <div className="inline-flex items-center">
                         Contact Us{" "}
-                        <FaAngleDown className="transition-transform duration-300 group-hover:rotate-180 ml-2" />
+                        <FaAngleRight className="transition-transform duration-300 group-hover:rotate-90 ml-2" />
                       </div>
                     </div>
                   </div>
