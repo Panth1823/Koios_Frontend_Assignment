@@ -8,6 +8,15 @@ import cp3 from "../assets/cp3.png";
 import cp4 from "../assets/cp4.png";
 import Card from "../assets/card.png";
 import Spotlight from "../assets/light.png";
+import Engineering from "../assets/eng.png";
+import Education from "../assets/edu.png";
+import Software from "../assets/soft.png";
+import Footer from "../assets/footer.png";
+import Call from "../assets/call.png";
+import Mail from "../assets/mail.png";
+import Logo from "../assets/logo.png";
+import Insta from "../assets/insta.png";
+import Linkedin from "../assets/linkedin.png";
 
 const Home = () => {
   const backgroundImageStyle = {
@@ -38,8 +47,8 @@ const Home = () => {
               Endless Solutions, One Destination
             </h1>
             <div className="flex justify-center mt-4">
-              <button className=" bg-woodsmoke-bg-950-bg border-2 border-yellow-400 text-white text-sm rounded-3xl px-5 mt-3 py-2 cursor-pointer hover:shadow-lg transition duration-300">
-                <div className="group inline-flex items-center font-xl-header-semibold text-yellow-400">
+              <button className=" bg-woodsmoke-bg-950-bg border-2 border-yellow-400 text-white text-sm rounded-3xl px-5 mt-3 py-2 cursor-pointer hover:scale-110 transition duration-300 hover:shadow-yellow">
+                <div className="group inline-flex items-center font-xl-header-semibold text-yellow-400 ">
                   Get Started{" "}
                   <FaAngleRight className="transition-transform group-hover:rotate-90 duration-300 p-1" />
                 </div>
@@ -98,12 +107,12 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="h-screen max-w-full bg-cover bg-center relative pt-12"
+          className="h-screen max-w-full bg-cover bg-center relative pt-96"
           style={{ backgroundImage: `url(${Turn})` }}
         >
           <div className="absolute inset-0  bg-opacity-50"></div>
           <div className="relative z-10 flex flex-col items-center justify-center text-white">
-            <h1 className="text-29xl text-yellow-400 font-h1 capitalize pt-36 pb-0 mb-1 ">
+            <h1 className="text-29xl text-yellow-400 font-h1 capitalize pt-40 pb-0 mb-1 ">
               Our Services
             </h1>
             <p className="text-xl font-xl-header-semibold text-white text-center ">
@@ -112,13 +121,20 @@ const Home = () => {
             <div className="flex justify-between items-center pt-20 w-1/2">
               <div className="justify-start">
                 <div className="flex flex-col font-xl-header-semibold">
-                  <div className="border flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 w-64 h-14">
+                  <div className="border flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 w-64 h-14 cursor-pointer hover:scale-105 transition duration-300">
+                    <img
+                      src={Engineering}
+                      alt="card"
+                      className="w-10 h-10 p-1"
+                    />
                     <p className="text-white text-xl">Engineering</p>
                   </div>
-                  <div className="flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 h-14">
+                  <div className="flex items-center justify-center mb-4 p-2 rounded-lg bg-gray-200 h-14 cursor-pointer hover:scale-105 transition duration-300">
+                    <img src={Software} alt="card" className="w-10 h-10 p-1 " />
                     <p className="opacity-70 text-white text-xl">Software</p>
                   </div>
-                  <div className="flex items-center justify-center p-2 rounded-lg bg-gray-200 h-14">
+                  <div className="flex items-center justify-center p-2 rounded-lg bg-gray-200 h-14 cursor-pointer hover:scale-105 transition duration-300">
+                    <img src={Education} alt="card" className="w-10 h-10 p-1" />
                     <p className="p-0 opacity-70 text-white text-xl">
                       Edu-Tech
                     </p>
@@ -126,20 +142,17 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex flex-col items-start pl-5 text-white font-xl-header-semibold ">
-                <h1 className="text-5xl">Engineering Solutions</h1>
-                <p className="font-xl-header-semibold whitespace-normal overflow-auto text-md">
+                <h1 className="text-5xl leading-relaxed font-bold">
+                  Engineering Solutions
+                </h1>
+                <p className="leading-relaxed pt-0">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Nulla porro architecto doloribus sint ab cum repellat eius
                   voluptatum exercitationem! Laboriosam voluptates optio ad rem
-                  illum eos ea aliquid ex sequi. Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit. At temporibus eveniet nihil?
-                  Quis culpa adipisci quisquam non doloremque aliquid hic
-                  explicabo numquam iure alias ab expedita, totam perspiciatis
-                  illum? Nobis ipsum non eligendi provident voluptates quo,
-                  veniam quia quaerat aliquid.
+                  illum eos ea aliquid ex sequi.
                 </p>
                 <div>
-                  <button className="border border-yellow-400 text-md rounded-2xl h-10 w-28 cursor-pointer text-yellow-400 bg-woodsmoke-bg-950-bg hover:scale-105 duration-300 smooth ">
+                  <button className="border border-yellow-400 text-md rounded-2xl h-10 w-28 cursor-pointer text-yellow-400 bg-woodsmoke-bg-950-bg hover:scale-110 transition duration-300 hover:shadow-yellow ">
                     Know More
                   </button>
                 </div>
@@ -147,8 +160,62 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="h-screen max-w-full bg-yellow-400 cursor-pointer">
-          contact
+        <section className="h-screen max-w-full  bg-woodsmoke-bg-950-bg">
+          <div>
+            <div className=" mx-auto justify-center flex items-center pt-28 pb-14 ">
+              <img
+                src={Footer}
+                className="hover:scale-110 transition duration-300 hover:shadow-yellow rounded-lg"
+                alt="footer"
+              />
+            </div>
+            <div className="p-0 text-center justify-center flex flex-col items-center font-xl-header-semibold text-white text-17xl">
+              <h1 className="m-0 p-0">Lets Establish a</h1>
+              <h1 className="m-0 p-0">
+                <span>Connection Now</span>
+              </h1>
+            </div>
+            <div className="flex justify-center space-x-6 pt-10">
+              <button className="flex justify-center items-center bg-yellow-400 font-xl-header-semibold text-black rounded-3xl px-4 py-2 w-38 h-12 text-md cursor-pointer hover:scale-110 transition duration-300 hover:shadow-yellow  font-bold ">
+                Call Now <img src={Call} className="ml-2 h-5  w-5" />
+              </button>
+              <button className="border border-yellow-400 flex justify-center items-center bg-woodsmoke-bg-950-bg  text-white rounded-3xl font-xl-header-semibold px-4 py-2 w-38 h-12 text-md cursor-pointer hover:scale-110 transition duration-300 hover:shadow-yellow font-bold">
+                Mail to <img src={Mail} className="ml-2  " />
+              </button>
+            </div>
+
+            <div className="flex items-center justify-center pt-20">
+              <img src={Logo} />
+              <h1 className="ml-4 text-white font-xl-header-semibold text-sm">
+                Koios Engineering Solutions
+              </h1>
+            </div>
+
+            <div className="flex justify-center pt-10 text-gray-50 opacity-80 ">
+              <div className="flex flex-wrap justify-between text-center">
+                <p className="w-1/3 cursor-pointer">Engineering</p>
+                <p className="w-1/3 cursor-pointer">Software</p>
+                <p className="w-1/3 cursor-pointer">Edu-Tech</p>
+                <p className="w-1/2 cursor-pointer">About Us</p>
+                <p className="w-1/2 cursor-pointer">Careers</p>
+              </div>
+            </div>
+            <div className="bg-gray-400 h-0.5 w-3/4 mx-auto mt-10 mb-5 opacity-10"></div>
+            <div className="flex justify-between items-center text-gray-50 font-xl-header-semibold">
+              <div className="  pl-60">
+                <img src={Insta} alt="insta" className=" p-2" />
+                <img src={Linkedin} alt="linkedin" className=" p-2" />
+              </div>
+
+              <div>
+                <p>@ 2023 All rights reserved.</p>
+              </div>
+
+              <div className=" pr-60">
+                <p>Privacy Policy | Terms of Service</p>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>

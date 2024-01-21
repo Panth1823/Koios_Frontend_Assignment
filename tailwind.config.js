@@ -2,9 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {      rotate: ['group-hover'],
-
-      
+    extend: {
+      rotate: ["group-hover"],
+      boxShadow: {
+        yellow: "0 0 20px 0 #f59e0b",
+      },
       colors: {
         "woodsmoke-bg-950-bg": "#1a1a1a",
         "gray-for-text-400": "#98a2b3",

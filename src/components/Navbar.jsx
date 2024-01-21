@@ -1,9 +1,8 @@
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
-import Logo from '../assets/logo.png'
+import Logo from "../assets/logo.png";
 import React from "react";
 
 const Navbar = () => {
- 
   return (
     <header className="flex-1 backdrop-filter:blur(8px) overflow-hidden flex flex-row items-center justify-center top-0 z-[99] sticky max-w-full text-left text-[1rem] text-white font-text-md-medium  bg-transparent backdrop-blur-md ">
       <div className="flex-1 overflow-hidden flex flex-row items-center justify-center pt-[0rem] px-[0rem] pb-[0.06rem] box-border max-w-full">
@@ -63,8 +62,8 @@ const Navbar = () => {
                 </div>
                 <div className="group flex flex-row items-start justify-start gap-[0.5rem]">
                   <div className="flex flex-row items-center justify-center">
-                    <div className="relative leading-[1.5rem] font-semibold cursor-pointer bg-yellow-400 p-2 rounded-3xl text-black hover:ring-2 hover:ring-yellow-400">
-                      <div className="inline-flex items-center">
+                    <div className="relative leading-[1.5rem] font-semibold cursor-pointer bg-yellow-400 p-2 rounded-3xl text-black hover:ring-2 hover:scale-110 transition duration-300 hover:shadow-yellow">
+                      <div className="inline-flex items-center font-bold">
                         Contact Us{" "}
                         <FaAngleRight className="transition-transform duration-300 group-hover:rotate-90 ml-2" />
                       </div>
