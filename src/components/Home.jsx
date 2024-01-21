@@ -7,7 +7,7 @@ import cp2 from "../assets/cp2.png";
 import cp3 from "../assets/cp3.png";
 import cp4 from "../assets/cp4.png";
 import Card from "../assets/card.png";
-import spotlight from "../assets/Spotlight.png";
+import Spotlight from "../assets/light.png";
 
 const Home = () => {
   const backgroundImageStyle = {
@@ -65,7 +65,7 @@ const Home = () => {
         </section>
         <section className="h-screen max-w-full bg-woodsmoke-bg-950-bg flex items-start bg-none">
           <div className="mx-auto">
-            <img className="mx-auto" alt="spotlight" src={spotlight} />
+            <img className="mx-auto" alt="spotlight" src={Spotlight} />
             <div className="mt-[-150px]">
               <div>
                 <h1 className="flex justify-center items-center mx-auto pt-0 text-29xl text-yellow-400 font-h1 mt-0 capitalize font-inherit">
