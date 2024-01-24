@@ -48,7 +48,6 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="flex flex-row items-start justify-start gap-[0.5rem]">
                     <div className="flex flex-row items-center justify-center hover:text-yellow-400 duration-200 smooth">
                       <div className="relative leading-[1.5rem] font-semibold whitespace-nowrap cursor-pointer">
@@ -62,7 +61,7 @@ const Navbar = () => {
                 </div>
                 <div className="group flex flex-row items-start justify-start gap-[0.5rem]">
                   <div className="flex flex-row items-center justify-center">
-                    <div className="relative leading-[1.5rem] font-semibold cursor-pointer bg-yellow-400 p-2 rounded-3xl text-black hover:ring-2 hover:scale-110 transition duration-300 hover:shadow-yellow">
+                    <div className="relative leading-[1.5rem] font-semibold cursor-pointer bg-yellow-400 p-2 rounded-3xl text-black  hover:scale-110 transition duration-300 hover:shadow-yellow">
                       <div className="inline-flex items-center font-bold">
                         Contact Us{" "}
                         <FaAngleRight className="transition-transform duration-300 group-hover:rotate-90 ml-2" />
