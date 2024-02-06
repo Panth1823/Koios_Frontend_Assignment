@@ -75,11 +75,11 @@ const Home = () => {
             <img className="mx-auto" alt="spotlight" src={Spotlight} />
             <div className="mt-[-150px]">
               <div>
-                <h1 className="flex justify-center items-center mx-auto pt-0 text-29xl text-yellow-400 font-h1 mt-0 capitalize font-inherit">
+                <h1 className="flex justify-center items-center mx-auto pt-0 text-29xl text-yellow-400 font-h1 mt-0 capitalize font-inherit pr-24">
                   Why Us
                 </h1>
                 <div>
-                  <p className="flex justify-center items-center mx-auto text-gray-300 text-xl font-xl-header-semibold">
+                  <p className="flex justify-center items-center mx-auto text-gray-300 text-xl font-xl-header-semibold pr-24">
                     Providing the best services as a one-stop destination for
                     the design and development of all your solutions.
                   </p>
