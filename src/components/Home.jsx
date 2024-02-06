@@ -84,7 +84,7 @@ const Home = () => {
                     the design and development of all your solutions.
                   </p>
                 </div>
-                <div className="grid grid-cols-4 gap-8 justify-center mt-14 pb-10">
+                <div className="grid grid-cols-4 gap-8 justify-center mt-14 pb-10 pr-24">
                   {[...Array(8)].map((_, i) => (
                     <div className="p-2 max-w-xs" key={i}>
                       <div className="flex flex-col items-start rounded-lg h-60 w-52 p-6 bg-gray-200">
@@ -213,8 +213,8 @@ const Home = () => {
             <div className="bg-gray-400 h-0.5 w-3/4 mx-auto mt-10 mb-5 opacity-10"></div>
             <div className="flex justify-between items-center text-gray-50 font-xl-header-semibold">
               <div className="  pl-60">
-                <img src={Insta} alt="insta" className=" p-2" />
-                <img src={Linkedin} alt="linkedin" className=" p-2" />
+                <img src={Insta} alt="insta" className=" p-2 cursor-pointer" />
+                <img src={Linkedin} alt="linkedin" className=" p-2 cursor-pointer" />
               </div>
               <div>
                 <p className=" font-xl-header-semibold">
