@@ -72,19 +72,21 @@ const Home = () => {
         </section>
         <section className="h-screen max-w-full bg-woodsmoke-bg-950-bg flex items-start bg-none">
           <div className="mx-auto">
-            <img className="mx-auto" alt="spotlight" src={Spotlight} />
+            <div className="flex items-center justify-center">
+              <img className="mx-auto" alt="spotlight" src={Spotlight} />
+            </div>
             <div className="mt-[-150px]">
               <div>
-                <h1 className="flex justify-center items-center mx-auto pt-0 text-29xl text-yellow-400 font-h1 mt-0 capitalize font-inherit pr-24">
+                <h1 className="flex justify-center items-center mx-auto pt-0 text-29xl text-yellow-400 font-h1 mt-0 capitalize font-inherit ">
                   Why Us
                 </h1>
                 <div>
-                  <p className="flex justify-center items-center mx-auto text-gray-300 text-xl font-xl-header-semibold pr-24">
+                  <p className="flex justify-center items-center mx-auto text-gray-300 text-xl font-xl-header-semibold ">
                     Providing the best services as a one-stop destination for
                     the design and development of all your solutions.
                   </p>
                 </div>
-                <div className="grid grid-cols-4 gap-8 justify-center mt-14 pb-10 pr-24">
+                <div className="grid grid-cols-4 gap-8 justify-center mt-14 pb-10 ">
                   {[...Array(8)].map((_, i) => (
                     <div className="p-2 max-w-xs" key={i}>
                       <div className="flex flex-col items-start rounded-lg h-60 w-52 p-6 bg-gray-200">
