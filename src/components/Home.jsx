@@ -25,6 +25,7 @@ const Home = () => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   };
+
   return (
     <div style={backgroundImageStyle}>
       <div className="bg-home-background">
@@ -42,14 +43,13 @@ const Home = () => {
             </h1>
           </div>
           <div className="mt-8 ">
-            <h1 className="flex justify-center text-white text-2xl font-xl-header-semibold">
-              Endless Solutions, One Destination
-            </h1>
-            <div className="flex items-center justify-center">
-              <button className="cursor-pointer border border-yellow-400 flex justify-center items-center bg-woodsmoke-bg-950-bg  text-white rounded-3xl font-xl-header-semibold px-12 py-6 w-38 h-12 text-md hover:scale-110 transition duration-300 hover:shadow-yellow font-bold  mt-24 text-lg">
-                {" "}
-                Get Started
-                <FaAngleRight className="transition-transform duration-300 group-hover:rotate-90 ml-2" />
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="text-white text-2xl font-xl-header-semibold">
+                Endless Solutions, One Destination<span></span>
+              </h1>
+              <button className="z-50 cursor-pointer border border-yellow-400 flex justify-center items-center bg-woodsmoke-bg-950-bg  text-white rounded-3xl font-xl-header-semibold px-12 py-6 w-38 h-12 text-md hover:scale-110 transition duration-300 hover:shadow-yellow font-bold  mt-24 text-lg">
+                Get Started{" "}
+                <FaAngleRight className=" transition-transform duration-300 group-hover:rotate-90 ml-2" />
               </button>
             </div>
           </div>
@@ -214,7 +214,11 @@ const Home = () => {
             <div className="flex justify-between items-center text-gray-50 font-xl-header-semibold">
               <div className="  pl-60">
                 <img src={Insta} alt="insta" className=" p-2 cursor-pointer" />
-                <img src={Linkedin} alt="linkedin" className=" p-2 cursor-pointer" />
+                <img
+                  src={Linkedin}
+                  alt="linkedin"
+                  className=" p-2 cursor-pointer"
+                />
               </div>
               <div>
                 <p className=" font-xl-header-semibold">
