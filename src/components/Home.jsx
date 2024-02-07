@@ -17,6 +17,7 @@ import Mail from "../assets/mail.png";
 import Logo from "../assets/logo.png";
 import Insta from "../assets/insta.png";
 import Linkedin from "../assets/linkedin.png";
+import "../App.css";
 
 const Home = () => {
   const backgroundImageStyle = {
@@ -35,11 +36,11 @@ const Home = () => {
         >
           <div className="absolute inset-0  bg-opacity-50"></div>{" "}
           <div className="flex justify-center items-center mx-auto">
-            <h1 className="text-white capitalize font-inherit text-transparent !bg-clip-text [background:linear-gradient(92.31deg,_#ffbf00,_#0d9bbf_44.74%,_#fff)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] inline-block mq450:text-[1.88rem] mq450:leading-[3rem] mq1050:text-[3.13rem] mq1050:leading-[4.5rem] font-bold pt-0 font-h1 ">
-              <p className="m-0 justify-center text-center p-1 pt-28 text-[6rem]">
+            <h1 class="text-white capitalize font-inherit text-transparent bg-clip-text inline-block font-bold  font-h1 p-1 pt-18 text-[6rem]">
+              <p class="m-0 justify-center text-center p-1 pt-28 text-6xl">
                 implementing
               </p>
-              <p className="m-0 text-[6rem] p-1">your ideas to reality</p>
+              <p class="m-0 text-6xl p-1">your ideas to reality</p>
             </h1>
           </div>
           <div className="mt-8 ">

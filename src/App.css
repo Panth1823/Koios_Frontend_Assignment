@@ -1,0 +1,16 @@
+@keyframes gradient-flow {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.font-inherit {
+  background: linear-gradient(92.31deg, #ffbf00, #0d9bbf 44.74%, #fff);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-flow 10s linear infinite;
+}
